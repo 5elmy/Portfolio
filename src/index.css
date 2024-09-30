@@ -1,0 +1,36 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&display=swap');
+:root {
+  font-family: Quicksand, Arial, sans-serif;
+  line-height: 1.5;
+  --bg-Side-Nav:"#f5f5f5";
+  --bg-main:"#ced4da";
+  --anchor-color:"#2c98f0";
+}
+
+
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+  scrollbar-width: thin;
+  scrollbar-color: #000 #f4f4f4;
+  
+}
+
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+ 
+  border-bottom: 20.6px solid #eee;
+  transform: rotate(270deg); /* Rotate the triangle 90 degrees */
+}
+

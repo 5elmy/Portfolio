@@ -1,0 +1,9 @@
+.menu-item {
+    border-bottom: 2px solid transparent; /* Initially, no visible bottom border */
+    transition: border-color 0.3s ease; /* Smooth transition for border color */
+  }
+  
+  .menu-item:hover {
+    border-bottom-color: gray; /* Border becomes gray on hover */
+  }
+  

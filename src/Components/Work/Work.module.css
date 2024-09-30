@@ -1,0 +1,66 @@
+.member{
+   
+    position: relative;
+    overflow: hidden;
+  
+
+    
+}
+.member .img_caption{
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+   width: 100%;
+    height: 100%;
+    text-align: center;
+    opacity: 0;
+    transition:  1s;
+  
+}
+.img_caption h2  {
+    /* position: relative !important;
+    left: 432px; */
+    opacity: 0;
+    transition: 1s 2s;
+    
+  
+   
+}
+.img_caption p  {
+    /* position: relative !important;
+    left: 432px; */
+    opacity: 0;
+    transition: 1s 3s;
+  
+   
+}
+.member img {
+    transition:1s 1s ;
+   
+}
+.member:hover .img_caption {
+    opacity: 1;
+    /* transform: rotate(360deg); */
+}
+
+.member:hover img {
+    transform:  scale(1.1,1.1);
+  
+}
+
+.member:hover h2 {
+    opacity: 1;
+}
+.member:hover p {
+    opacity: 1;
+}
+
+.icon{
+    opacity: 0;
+    transition: 1s 4s;
+}
+
+.member:hover .icon {
+    opacity: 1;
+}
